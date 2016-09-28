@@ -33,7 +33,8 @@
             android:id="@+id/l_act2_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/launch_Act2"/>
+            android:text="@string/launch_Act2"
+            android:onClick="launchAct2"/>
         <Button
             android:id="@+id/l_act3_btn"
             android:layout_width="match_parent"
@@ -44,12 +45,14 @@
             android:id="@+id/l_browser_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/launch_browser"/>
+            android:text="@string/launch_browser"
+            android:onClick="launchBrowser"/>
         <Button
             android:id="@+id/l_geo_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/launch_geo"/>
+            android:text="@string/launch_geo"
+            android:onClick="launchGeo"/>
 
 
     </LinearLayout>
