@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Lab5</string>
+    <string name="app_name">Activity Launcher</string>
+    <string name="help">Please push one of these buttons</string>
+    <string name="do_something">Your Options</string>
+    <string name="launch_Act2">Launch Activity 2</string>
+    <string name="launch_Act3">Launch Activity 3</string>
+    <string name="launch_Act4">Launch Activity 4</string>
+    <string name="launch_Act5">Launch Activity 5</string>
+    <string name="launch_browser">Launch Browser</string>
+    <string name="launch_geo">Launch Google Map</string>
+    <string name="result_for_act1">Activity Result:</string>
+
 </resources>
