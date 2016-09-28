@@ -6,12 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * Created by MDThai on 9/28/2016.
  */
-public class Activity2 extends AppCompatActivity {
+public class Activity4 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity2_main);
+        setContentView(R.layout.activity4_main);
     }
-
 }

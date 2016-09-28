@@ -9,5 +9,9 @@
     <string name="launch_browser">Launch Browser</string>
     <string name="launch_geo">Launch Google Map</string>
     <string name="result_for_act1">Activity Result:</string>
+    <string name="title_act_activity2">Activity 2</string>
+    <string name="title_act_activity3">Activity 3</string>
+    <string name="title_act_activity4">Activity 4</string>
+    <string name="title_act_activity5">Activity 5</string>
 
 </resources>
