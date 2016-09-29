@@ -39,7 +39,8 @@
             android:id="@+id/l_act3_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/launch_Act3"/>
+            android:text="@string/launch_Act3"
+            android:onClick="launchAct3"/>
 
         <Button
             android:id="@+id/l_browser_btn"

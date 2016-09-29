@@ -17,5 +17,7 @@
     <string name="act2_btn2">Activity 2: Two, 2 , due, deux</string>
     <string name="act2_text_top">Return and send one of these messages</string>
     <string name="nodata">No Data Received</string>
+    <string name="generic_btn_return">Return</string>
+    <string name="act5_instruc">Hit the back button to end.</string>
 
 </resources>

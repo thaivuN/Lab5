@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
        Intent i = new Intent(this, Activity2.class);
 
         logMethod("Launching Activity 2");
-        startActivityForResult(i, 0);
+        startActivityForResult(i, 2);
 
     }
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Activity3.class);
 
         logMethod("Launching Activity 3");
-        startActivityForResult(i, 0);
+        startActivityForResult(i, 3);
     }
 
     public void launchBrowser(View view)
@@ -58,12 +58,28 @@ public class MainActivity extends AppCompatActivity {
 
         String value = "No return";
 
+        logMethod("Result "+ result);
+        logMethod("Request " +request);
+
+
         if (result == RESULT_OK){
             if (i != null)
             {
-                if(i.hasExtra("Act2"))
+                if(request == 2)
                 {
-                    value = i.getExtras().getString("Act2");
+                    if(i.hasExtra("Act2"))
+                        value = i.getExtras().getString("Act2");
+                    else
+                    {
+                        value = "Missing Data";
+                    }
+                }
+                else if(request == 3)
+                {
+                    if(i.hasExtra("Act3"))
+                        value = i.getExtras().getString("Act3");
+                    else
+                        value = "Missing Data";
                 }
                 else
                 {

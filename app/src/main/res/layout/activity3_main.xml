@@ -11,4 +11,18 @@
     tools:context=".Activity3"
     >
 
+    <Button
+        android:id="@+id/act3_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_Act4"
+        android:onClick="launchBtn"/>
+
+    <Button
+        android:id="@+id/act3_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_Act5"
+        android:onClick="launchBtn"/>
+
 </LinearLayout>
