@@ -96,7 +96,7 @@ public class Activity3 extends AppCompatActivity {
         else
             i.putExtra("Act3", getString(R.string.nodata));
 
-        setResult(RESULT_OK);
+        setResult(RESULT_OK,i);
 
 
         Log.d("Act3", ""+ i);
